@@ -6,7 +6,7 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="text-sm-end d-none d-sm-block">
-                        Pranata Komputer - Firhan Adnan
+                        Prakom - Firhan Adnan
                     </div>
                 </div>
             </div>

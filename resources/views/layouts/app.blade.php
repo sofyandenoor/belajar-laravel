@@ -4,21 +4,14 @@
 <head>
         
         <meta charset="utf-8" />
-        <title>Starter Page | Skote - Admin & Dashboard Template</title>
+        <title>Qroom | @yield('title')</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
         <meta content="Themesbrand" name="author" />
         <!-- App favicon -->
-        <link rel="shortcut icon" href="{{asset('skote')}}/assets/images/favicon.ico">
+        <link rel="shortcut icon" href="{{asset('skote/assets/images/favicon.ico')}}">
 
-        <!-- Bootstrap Css -->
-        <link href="{{asset('skote')}}/assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
-        <!-- Icons Css -->
-        <link href="{{asset('skote')}}/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-        <!-- App Css-->
-        <link href="{{asset('skote')}}/assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
-        <!-- App js -->
-        <script src="{{asset('skote')}}/assets/js/plugin.js"></script>
+        @include('layouts.style')
 
     </head>
 
@@ -80,13 +73,7 @@
         <!-- END layout-wrapper -->
 
 
-        <!-- JAVASCRIPT -->
-        <script src="{{asset('skote')}}/assets/libs/jquery/jquery.min.js"></script>
-        <script src="{{asset('skote')}}/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="{{asset('skote')}}/assets/libs/metismenu/metisMenu.min.js"></script>
-        <script src="{{asset('skote')}}/assets/libs/simplebar/simplebar.min.js"></script>
-        <script src="{{asset('skote')}}/assets/libs/node-waves/waves.min.js"></script>
-        <script src="{{asset('skote')}}/assets/js/app.js"></script>
+      @include('layouts.script')
 
     </body>
 

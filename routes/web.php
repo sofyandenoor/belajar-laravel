@@ -2,10 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('layouts.master');
-});
+// Route::get('admin/user', function () {
+//     return view('admin.user.index');
+// });
 
-Route::get('/contact', function () {
-    return view('pages.contact');
-});
+Route::view('admin/user/index','admin.user.index')->name('admin.user.index');
