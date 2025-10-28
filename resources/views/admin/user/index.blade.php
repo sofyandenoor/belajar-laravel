@@ -2,4 +2,7 @@
 
 @section('title','Data User')
 
-{{-- @livewire('admin.user.index') --}}
+@section('content')
+    @livewire('admin.user.index')
+@endsection
+
